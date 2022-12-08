@@ -30,7 +30,7 @@ def filter_by_industry(jobs: List[Dict], industry: str) -> List[Dict]:
         Industry for the list filter
 
     Returns
-    -------
+    --------
     list
         List of jobs with provided industry
     """
