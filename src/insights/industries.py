@@ -3,9 +3,9 @@ from src.insights.jobs import read
 
 
 def get_unique_industries(path: str) -> List[str]:
-    file = read(path)
+    jobs = read(path)
     industries_list = set()
-    for industrie in file:
+    for industrie in jobs:
         if industrie["industry"]:
             industries_list.add(industrie["industry"])
     return industries_list
