@@ -47,6 +47,7 @@ def matches_salary_range(job: Dict, salary: Union[int, str]) -> bool:
     raise NotImplementedError
 
 
+
 def filter_by_salary_range(
     jobs: List[dict],
     salary: Union[str, int]
